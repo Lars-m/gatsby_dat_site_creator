@@ -73,7 +73,7 @@ function makeFoldersAndFiles() {
       const week = getLastPartOfPath(weekFolder);
       let weekAddjusted = w.extra ? week + ` ${w.extra}` : week;
       const title = w.title ? w.title : "TODO - ADD TITLE";
-      const weekIndexText = getIndexText(weekAddjusted, title);
+      const weekIndexText = getIndexText(weekAddjusted, title,true);
       fs.writeFileSync(path.join(weekFolder, "index.md"), weekIndexText);
 
       let date = null;

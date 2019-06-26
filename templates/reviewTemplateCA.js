@@ -8,7 +8,7 @@ pageintro: |
 ---
 ## Review of CA-X
 
-Sign up for a timeslot here: **TBD**
+Sign up for a time slot here: **TBD**
 
 Please note, this review will be online via **Zoom** (details will follow)
 
